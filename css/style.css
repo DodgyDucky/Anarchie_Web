@@ -26,3 +26,36 @@
     font-size: 35px;
     color: white;
 }
+
+.box
+{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: center;
+}
+
+.box_text
+{
+    width: 15vw;
+    min-width: 500px;
+    padding: 50px;
+    position:relative;
+}
+
+.header_text 
+{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: WHITEONBLACK;
+    float: left;
+    left: 50%;
+    font-size: 25px;
+}
+
+.small_text
+{
+    color:white;
+    font-size: 20px;
+}
