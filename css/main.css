@@ -101,7 +101,7 @@ input, select {
 body
 {
     background-image: url("../assets/background.jpg");
-    background-size: auto, cover;
-    background-repeat: repeat, no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
