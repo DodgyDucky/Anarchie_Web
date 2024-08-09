@@ -13,11 +13,12 @@
 
 .header
 {
+    font-family: WHITEONBLACK;
+    font-size: 50px;
     margin-left:auto; 
     margin-right:auto;
     text-align: center;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: WHITEONBLACK;
 }
