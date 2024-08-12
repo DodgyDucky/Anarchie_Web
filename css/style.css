@@ -1,11 +1,84 @@
 @font-face { font-family: WHITEONBLACK; src: url('../assets/White\ On\ Black.ttf'); }
 
+/*HEADER & FOOTER*/
 .page-container 
 {
     position: relative;
     min-height: 100vh;
 }
 
+/*Footer*/
+.footer
+{
+    background-color: black;
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.footerIcons
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footerIcons a
+{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.footerNav
+{
+    margin: 30px 0;
+}
+
+.footerNav ul
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a
+{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover
+{
+    opacity: 1;
+}
+
+.footerBottom
+{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p
+{
+    color: white;
+}
+
+.designer
+{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+    
+}
+
+/*OTHER*/
 .logo
 {
     height: 250px;
