@@ -9,6 +9,17 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png"/>
     <title>Main Page</title>
 
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+        $("#footer").load("scripts/footer.html"); 
+        });
+    </script> 
+
 </head>
 <body>
     <div class="page-container">
@@ -55,6 +66,10 @@
                 <p class="small_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget arcu in urna ultrices ultrices in nec lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent rhoncus nisl ac lacinia accumsan. In finibus non nibh eget tempor. Nullam scelerisque in tellus at pellentesque. Sed non pretium lorem. Morbi sollicitudin tellus eu turpis malesuada, id vulputate odio gravida.</p>
             </div>
         </div>
+
+        <!-- -------------------------------------- -->
+
+        <div id="footer"></div> <!-- Footer -->
 
     </div>
 </body>
