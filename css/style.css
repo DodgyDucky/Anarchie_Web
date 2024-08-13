@@ -7,6 +7,30 @@
     min-height: 100vh;
 }
 
+/*Header*/
+.logo
+{
+    height: 250px;
+    filter: drop-shadow(2px 2px white);
+}
+
+.header
+{
+    font-family: WHITEONBLACK;
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header a
+{
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px gray;
+}
+
 /*Footer*/
 .footer
 {
@@ -78,44 +102,7 @@
     
 }
 
-/*OTHER*/
-.logo
-{
-    height: 250px;
-}
-
-.header
-{
-    font-family: WHITEONBLACK;
-    margin-left:auto; 
-    margin-right:auto;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.header a
-{
-    font-size: 35px;
-    color: white;
-}
-
-.box
-{
-    display: flex;
-    flex-direction: row;
-    padding: 50px;
-    justify-content: center;
-}
-
-.box_text
-{
-    width: 15vw;
-    min-width: 500px;
-    padding: 50px;
-    position:relative;
-}
-
+/*TEXT*/
 .header_text 
 {
     color: white;
@@ -132,4 +119,22 @@
 {
     color:white;
     font-size: 20px;
+    text-shadow: 2px 2px gray;
+}
+
+/*OTHER*/
+.box
+{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: center;
+}
+
+.box_text
+{
+    width: 15vw;
+    min-width: 500px;
+    padding: 50px;
+    position:relative;
 }
